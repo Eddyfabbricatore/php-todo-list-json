@@ -1,0 +1,29 @@
+body{
+  background-color: bisque;
+}
+
+h1{
+  color: #fff;
+}
+
+ul,
+.input-group,
+.box{
+  width: 900px !important
+}
+
+li{
+  cursor: pointer;
+}
+
+.container{
+  height: 100vh;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.box{
+  background-color: #fff;
+}
