@@ -1,18 +1,1 @@
-[
-  {
-    "task": "HTML",
-    "done": false 
-  },
-  {
-    "task": "CSS",
-    "done": false
-  },
-  {
-    "task": "Javascript",
-    "done": false
-  },
-  {
-    "task": "PHP",
-    "done": false
-  }
-]
+[{"task":"HTML","done":false},{"task":"CSS","done":false},{"task":"Javascript","done":false},{"task":"PHP","done":false}]

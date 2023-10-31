@@ -10,7 +10,11 @@
     //aggiungo alla lista
     $newTask = $_POST['toDoItem'];
 
-    $list[] = $newTask;
+    $list[] =
+      [
+        'task' => $newTask,
+        'done' => false
+      ];
     
     //salvo dentro il JSON insieme alla lista aggiornata
     file_put_contents('todo-list.json', json_encode($list));

@@ -26,6 +26,8 @@ createApp({
 
       data.append('toDoItem', this.newTask);
 
+      console.log(data);
+
       axios.post(this.apiUrl, data)
       .then(result => {
         this.list = result.data;
